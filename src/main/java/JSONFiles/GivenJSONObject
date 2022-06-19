@@ -1,0 +1,140 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "name": "Owners",
+              "guid": "833a3cd1-cc0f-46c0-bb3a-cefcfdba3a81",
+              "type": "group"
+            }
+          ],
+          "name": "Owners",
+          "guid": "4f96481c-3b66-41e4-8485-4d45d8d5ac71",
+          "type": "folder"
+        },
+        {
+          "children": [
+            {
+              "name": "includes",
+              "guid": "9ec65aa2-bd26-4dad-9243-4462f70bb864",
+              "type": "group"
+            },
+            {
+              "name": "excludes",
+              "guid": "ebc8be2c-29aa-429f-8b0b-ebe2ceeda612",
+              "type": "group"
+            },
+            {
+              "name": "final",
+              "guid": "7b58ded5-ca33-40bd-bb61-ccd3a7a57636",
+              "listName": "faculty",
+              "type": "group"
+            }
+          ],
+          "name": "Members",
+          "guid": "40696367-f536-41f5-8e9b-856c949c0478",
+          "type": "folder"
+        }
+      ],
+      "name": "faculty",
+      "guid": "52da0954-f998-40fe-8799-4566631eea92",
+      "type": "folder"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "name": "Owners",
+              "guid": "86183b62-a9e4-431c-ae23-13c2ca43747a",
+              "type": "group"
+            }
+          ],
+          "name": "Owners",
+          "guid": "5d58e8fc-ff49-4d31-9891-19b09872c7a4",
+          "type": "folder"
+        },
+        {
+          "children": [
+            {
+              "name": "includes",
+              "guid": "a1e9b2e3-3672-451e-b0ef-0c11de94d61e",
+              "type": "group"
+            },
+            {
+              "name": "excludes",
+              "guid": "32a95249-76f0-4367-bfc2-8040747d36c4",
+              "type": "group"
+            },
+            {
+              "name": "finalMembership",
+              "guid": "2f770935-be9a-4417-b2e8-83c577e0e434",
+              "listName": "staff-official",
+              "type": "group"
+            }
+          ],
+          "name": "Members",
+          "guid": "2bdbb32a-2024-4bc2-aac7-31e35bc90575",
+          "type": "folder"
+        }
+      ],
+      "name": "staff",
+      "guid": "103dca7e-b4ec-4be1-a747-1f960c08bb08",
+      "type": "folder"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "name": "Owners",
+                  "guid": "b1107e92-2ec7-4050-9b02-ccce899d211b",
+                  "type": "group"
+                }
+              ],
+              "name": "Owners",
+              "guid": "4b7daec2-808f-4f3a-8f74-da3b1128fdfc",
+              "type": "folder"
+            },
+            {
+              "children": [
+                {
+                  "name": "includes",
+                  "guid": "181fd8e7-675f-4d00-ae8d-bc79c07cbd86",
+                  "type": "group"
+                },
+                {
+                  "name": "excludes",
+                  "guid": "3cf5eb95-d400-49a5-8a08-26bbbedddef8",
+                  "type": "group"
+                },
+                {
+                  "name": "final",
+                  "guid": "19a3e61f-53ad-46a8-bb1a-2ed3b48552fe",
+                  "listName": "it-staff",
+                  "type": "group"
+                }
+              ],
+              "name": "Members",
+              "guid": "150c3a8a-dbea-4145-8305-620140c9c97f",
+              "type": "folder"
+            }
+          ],
+          "name": "it",
+          "guid": "0e3c9c81-6549-483b-96de-46c0b66a1378",
+          "type": "folder"
+        }
+      ],
+      "name": "departments",
+      "guid": "094d1321-67ba-4aed-938f-5cd1698e1fb0",
+      "type": "folder"
+    }
+  ],
+  "name": "lists",
+  "guid": "e8df9733-40f8-4df2-88f7-a2321eb757f8",
+  "type": "folder"
+}

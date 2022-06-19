@@ -1,0 +1,14 @@
+For this project, we want you to write a small program that simulates pulling data from a system like Grouper, and generating lists from it. Please complete this project in Java or Groovy. Feel free to use any libraries you feel would be helpful, such as Gson, Jackson, Apache HTTP Components, and/or your favorite HTTP / JSON libraries. Feel free to use whatever build system you want, such as Apache Maven or Gradle.
+The first data you will need to retrieve is a tree structure, which includes nodes of interest. The layout is a tree, roughly equivalent to a directory structure with folders containing more nodes, and groups containing membership. The URL for the tree is at https://wings.it.ndsu.edu/iam/tree.json All access uses basic auth of:
+
+Username: interview
+Password: GrijkofDuDasutIvyett
+
+You are interested in the JSON group nodes that have listName attributes. You can ignore the rest. The GUIDS of the group are used to get the data for the group at https://wings.it.ndsu.edu/iam/<guid>.json
+From there you can extract the username of the members and write that out to a file for the lists in scope.
+
+This should take no more than a couple of hours.
+
+Please submit the completed project in a zip file to richard.frovarp@ndsu.edu. Alternatively, you can send a link to a public repo to the same address.
+
+If you have any questions, please let me know.
