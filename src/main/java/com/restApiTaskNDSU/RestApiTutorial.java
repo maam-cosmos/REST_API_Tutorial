@@ -71,12 +71,12 @@ public class RestApiTutorial {
         } else {
             String keyValue = (String) json.get(key);
             String guID = (String) json.get("guid");
-            writeGroups(keyValue, guID);
+            writeGroupsToFiles(keyValue, guID);
         }
     }
 
     // Retrieve usernames of the groups and create lists of usernames and write lists to output files
-    public static void writeGroups (String keyValue, String guID) throws IOException, InterruptedException {
+    public static void writeGroupsToFiles (String keyValue, String guID) throws IOException, InterruptedException {
         String response = makeNewHTTPRequest(guID);
         JSONArray jsonArray = new JSONArray(response);
 
