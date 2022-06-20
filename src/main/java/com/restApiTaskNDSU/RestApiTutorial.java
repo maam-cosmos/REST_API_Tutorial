@@ -42,11 +42,12 @@ public class RestApiTutorial {
         String nextKeys;
 
         if (!exists) {
-            keys = json.keys();
+            keys = json.keys();  //json.keys() returns an array of JSON object attributes
             while (keys.hasNext()) {
                 nextKeys = (String) keys.next();
                 try {
-
+                    //json.get() will return the value of the attribute/key
+                    //instanceof provides the information of whether the value received from json.get() is an object or an array
                     if (json.get(nextKeys) instanceof JSONObject) {
 
                         if (!exists) {
