@@ -84,9 +84,9 @@ public class RestApiTutorial {
         ArrayList<String> usernames = new ArrayList<>();
 
         for (int i = 0; i < jsonArray.length(); i++) {
-            String jsonArrayString = jsonArray.get(i).toString();
-            JSONObject innerJson = new JSONObject(jsonArrayString);
-            usernames.add(innerJson.get("username").toString());
+            String arrayElementToString = jsonArray.get(i).toString();
+            JSONObject arrayElementToObject = new JSONObject(arrayElementToString);
+            usernames.add(arrayElementToObject.get("username").toString());
         }
         grouperList.put(keyValue, usernames);
 
